@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Pushjet-Gtk by Damoun</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Pushjet-Gtk</h1>
+        <p><img class="emoji" title=":incoming_envelope:" alt=":incoming_envelope:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4e8.png" height="20" width="20" align="absmiddle"> Pushjet Gtk client</p>
+
+        <p class="view"><a href="https://github.com/Damoun/Pushjet-Gtk">View the Project on GitHub <small>Damoun/Pushjet-Gtk</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/Damoun/Pushjet-Gtk/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/Damoun/Pushjet-Gtk/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/Damoun/Pushjet-Gtk">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="pushjet-gtk-" class="anchor" href="#pushjet-gtk-" aria-hidden="true"><span class="octicon octicon-link"></span></a>Pushjet-Gtk <a href="/LICENSE"><img src="http://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="License"></a>
+</h1>
+
+<p>Pushjet-Gtk client for the Elementary OS desktop. It was written in Vala and uses
+the Granite framework.</p>
+
+<p><a href="https://damoun.github.io/Pushjet-Gtk">https://damoun.github.io/Pushjet-Gtk</a></p>
+
+<h2>
+<a id="introduction" class="anchor" href="#introduction" aria-hidden="true"><span class="octicon octicon-link"></span></a>Introduction</h2>
+
+<p><a href="http://pushjet.io/">Pushjet</a> is a notifications system.
+You can create services that send notifications to any subscribed client.</p>
+
+<p>Pushjet-Gtk is a client under <a href="https://tldrlegal.com/license/mit-license">MIT</a> license.</p>
+
+<h2>
+<a id="features" class="anchor" href="#features" aria-hidden="true"><span class="octicon octicon-link"></span></a>Features</h2>
+
+<ul>
+<li>Receive notifications</li>
+</ul>
+
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<h3>
+<a id="building-from-source" class="anchor" href="#building-from-source" aria-hidden="true"><span class="octicon octicon-link"></span></a>Building from source</h3>
+
+<p>To build from source, you need some libraries :</p>
+
+<div class="highlight highlight-sh"><pre>sudo apt-get install libglib2.0-dev libappindicator3-dev libnotify-dev libgranite-dev</pre></div>
+
+<div class="highlight highlight-sh"><pre>git clone https://github.com/Damoun/Pushjet-Gtk.git
+<span class="pl-c1">cd</span> pushjet
+mkdir build
+<span class="pl-c1">cd</span> build
+cmake -DCMAKE_INSTALL_PREFIX=/usr ../
+make
+sudo make install</pre></div>
+
+<p>From there, you can run the binary pushjet</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/Damoun">Damoun</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+
+  </body>
+</html>
