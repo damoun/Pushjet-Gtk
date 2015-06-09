@@ -1,4 +1,7 @@
 namespace PushJet {
+  internal Settings SETTING;
+  internal Service SERVICE;
+  internal State STATE;
   internal App APP;
 }
 
@@ -42,11 +45,16 @@ public class PushJet.App : Granite.Application {
       this.window.present();
 			return;
 		}
+    PushJet.STATE = new PushJet.State();
+    PushJet.SETTING = new PushJet.Settings();
+    PushJet.SERVICE = new PushJet.Service();
 		this.window = new PushJet.Window();
     this.window.title = "PushJet";
 		this.window.icon_name = "pushjet-icon";
 		this.window.set_application(this);
 		this.window.show_all();
+		if (PushJet.SETTING.hide_start)
+			this.window.hide();
 	}
 
   public static int main(string[] args) {

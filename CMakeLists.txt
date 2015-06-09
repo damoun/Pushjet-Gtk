@@ -51,6 +51,7 @@ vala_precompile(VALA_C ${EXEC_NAME}
   src/pushjet.vala
   src/window.vala
   src/welcomeview.vala
+  src/settings.vala
 
 
   # tell what libraries to use when compiling
@@ -72,3 +73,7 @@ install (FILES ${CMAKE_CURRENT_SOURCE_DIR}/data/pushjet.desktop DESTINATION ${DA
 # install our application icons
 install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/data/icons/48/pushjet-icon.png DESTINATION share/icons/hicolor/48x48/apps)
 install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/data/icons/24/pushjet-indicator.svg DESTINATION share/icons/hicolor/24x24/apps)
+
+# install settings schema
+include(GSettings)
+add_schema("data/org.pantheon.pushjet.gschema.xml")

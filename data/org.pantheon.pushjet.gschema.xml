@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema path="/org/pantheon/pushjet/state/" id="org.pantheon.pushjet.state" gettext-domain="pushjet">
+    <key name="window-height" type="i">
+      <default>520</default>
+      <summary>Window Height</summary>
+      <description>The saved height of the window.</description>
+    </key>
+    <key name="window-width" type="i">
+      <default>820</default>
+      <summary>Window Width</summary>
+      <description>The saved width of the window.</description>
+    </key>
+  </schema>
+  <schema path="/org/pantheon/pushjet/settings/" id="org.pantheon.pushjet.settings" gettext-domain="pushjet">
+    <key name="hide-close" type="b">
+      <default>false</default>
+      <summary>Close application</summary>
+      <description>Close Pushjet on window close</description>
+    </key>
+    <key name="hide-start" type="b">
+      <default>false</default>
+      <summary>Start hidden</summary>
+      <description>Start Pushjet hidden</description>
+    </key>
+    <key name="enable-notification" type="b">
+      <default>true</default>
+      <summary>Enable notification</summary>
+      <description>Enable service notification globally</description>
+    </key>
+    <key name="uuid" type="s">
+      <default>''</default>
+      <summary>Enable notification</summary>
+      <description>Enable service notification globally</description>
+    </key>
+  </schema>
+  <schema path="/org/pantheon/pushjet/service/" id="org.pantheon.pushjet.service" gettext-domain="pushjet">
+    <key name="icon" type="s">
+      <default>''</default>
+      <summary>Service icon</summary>
+      <description>Icon of the service</description>
+    </key>
+    <key name="name" type="s">
+      <default>''</default>
+      <summary>Service name</summary>
+      <description>Name of the service</description>
+    </key>
+    <key name="public-key" type="s">
+      <default>''</default>
+      <summary>Service public key</summary>
+      <description>Public key of the service</description>
+    </key>
+    <key name="private-key" type="s">
+      <default>''</default>
+      <summary>Private key</summary>
+      <description>Private key of the service</description>
+    </key>
+    <key name="enable-notification" type="b">
+      <default>true</default>
+      <summary>Enable notification</summary>
+      <description>Enable service notification</description>
+    </key>
+  </schema>
+</schemalist>
