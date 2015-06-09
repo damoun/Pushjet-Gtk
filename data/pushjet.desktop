@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=PushJet
+GenericName=PushJet Client
+Comment=Provide a PushJet GTK client
+Categories=GTK;Utility;
+Exec=pushjet
+Icon=pushjet-icon
+Terminal=false
+Type=Application
+X-GNOME-Gettext-Domain=pushjet
+X-GNOME-Keywords=Push;Jet;
