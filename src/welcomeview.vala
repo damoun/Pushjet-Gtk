@@ -10,9 +10,14 @@ public class PushJet.WelcomeView : Granite.Widgets.Welcome {
 
   private void build_ui() {
     this.append(
-      "add",
-      "Add an UUID",
-      "Set up an UUID to receive your notifications"
+      "document-new",
+      "Create",
+      "Create a new UUID to receive notifications"
+    );
+    this.append(
+      "document-import",
+      "Import",
+      "Import an existing UUID to receive notifications"
     );
   }
 }
