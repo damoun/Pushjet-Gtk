@@ -1,4 +1,4 @@
-PushJet-Gtk [![License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](/LICENSE)
+PushJet-Gtk [![License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](/LICENSE.txt)
 ===========
 
 PushJet-Gtk client for the Elementary OS desktop. It was written in Vala and uses
