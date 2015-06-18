@@ -52,6 +52,7 @@ vala_precompile(VALA_C ${EXEC_NAME}
   src/window.vala
   src/welcomeview.vala
   src/settings.vala
+  src/uuidwindow.vala
 
 
   # tell what libraries to use when compiling
